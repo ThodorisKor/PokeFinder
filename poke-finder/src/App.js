@@ -33,6 +33,7 @@ function App() {
       error: function (error) {
         console.error("Error fetching pokemon:", error.status);
         setFound(true);
+        setIsLoaded(false);
       },
     });
   };
