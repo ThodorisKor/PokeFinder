@@ -4,7 +4,7 @@ PokeFinder is a Web App created with React library for finding Pokemons , like a
 
 # UI of the App
 
-<img src='./Screenshots/1_.png' width='60%'>&nbsp;&nbsp;
+<img src='./Screenshots/1_.png'>&nbsp;&nbsp;
 
 <img src='./Screenshots/2_.png' width='60%'>&nbsp;&nbsp;
 
