@@ -2,6 +2,23 @@
 
 PokeFinder is a Web App created with React library for finding Pokemons , like a pokedex
 
+Table of Contents
+=================
+   * [Requirements](#requirements)
+   * [Installation](#installation)
+   * [App description](#app-description)
+   * [Περιγραφή User Interface](#περιγραφή-user-interface)
+   * [Fetching Data](#fetching-data)
+
+### :hammer_and_wrench: Languages and Tools Used for this project :
+
+  <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" title="react" alt="react" width="40" height="40"/>&nbsp;&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-original.svg" title="bootstrap" alt="bootstrap" width="40" height="40"/>&nbsp;&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg" title="nodejs" alt="nodejs" width="40" height="40"/>&nbsp;&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/npm/npm-original-wordmark.svg" title="npm" alt="npm" width="40" height="40"/>&nbsp;&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/jquery/jquery-original.svg" title="jquery" alt="jquery" width="40" height="40"/>&nbsp;&nbsp;
+
+
 # UI of the App
 
 <img src='./Screenshots/1_.png'>&nbsp;&nbsp;
@@ -20,6 +37,7 @@ PokeFinder is a Web App created with React library for finding Pokemons , like a
 - npm
 - jQuery
 - bootstrap
+
 ## Installation
 - Clone the reposetory
 
