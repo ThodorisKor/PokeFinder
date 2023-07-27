@@ -7,7 +7,7 @@ const Header = (props) => {
   };
   const clickHandler = (event) => {
     event.preventDefault();
-    if (userInput == "") {
+    if (userInput === "") {
       props.Onclick("noinput");
     } else {
       props.Onclick(userInput);
