@@ -2,6 +2,7 @@
 
 PokeFinder is a Web App created with React library for finding Pokemons , like a pokedex
 
+# Look of the App
 
 ## Requirements
 - NodeJS
@@ -49,4 +50,12 @@ $ npm install jquery
 
 - Pokemon.js includes and renders the pokemon that was fetched by the [PokeAPI](https://pokeapi.co/). Renders a image , a header (name of pokemon) , the weight and the abilities of the pokemon.
 
- 
+## Fetching Data
+
+- In App.js , the data is fetched using jQuery javascript library with AJAX technique that provides.
+  
+  - Using the Poke API url and adding to the url the pokemon of the input , it returns data in JSON format.
+  
+  - Then the data is saved in a state hook called 'pokemon'.
+
+- At the end pokemon state hook is passed as props in Pokemon component , to render those data. 

@@ -9,8 +9,8 @@ import Header from "./components/Header/Header";
 import Card from "./components/Card/Card";
 import Pokemon from "./components/Pokemon/Pokemon";
 function App() {
-  const [isLoaded,setIsLoaded] = useState(false);
-  const [found,setFound] = useState(false);
+  const [isLoaded, setIsLoaded] = useState(false);
+  const [found, setFound] = useState(false);
   const [pokemon, setPokemon] = useState({});
   const ClickHandler = (pokemonInput) => {
     $.ajax({
@@ -18,7 +18,7 @@ function App() {
       method: "GET",
       success: function (data) {
         setFound(false);
-        setIsLoaded(true); 
+        setIsLoaded(true);
         const abilities = [];
         for (var i = 0; i < Object.keys(data.abilities).length; i++) {
           abilities.push(data.abilities[i].ability.name);
