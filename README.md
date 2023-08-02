@@ -42,7 +42,7 @@ Table of Contents
 - Clone the reposetory
 
 ```
-$ git clone https://github.com/iee-ihu-gr-course1941/ADISE22_PINNACLE.git
+$ git clone https://github.com/ThodorisKor/PokeFinder.git
 ```
 - Install [NodeJS](https://nodejs.org) 
 - Install [npm](https://www.npmjs.com/) (Node Package Manager)
